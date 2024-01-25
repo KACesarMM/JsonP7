@@ -1,0 +1,90 @@
+{
+    "items_count": 2,
+    "pokemons":[
+        {
+            "id":1,
+            "nom":"Bulbasaur",
+            "generación":"Primera",
+            "categoria":"Semilla",
+            "tipos":[
+                "Planta",
+                "Veneno"
+            ],
+            "habilidad":"Espesura",
+            "hab.oculta":"Clorofila",
+            "peso":6.9,
+            "unidad_medida":"Kg",
+            "altura":0.7,
+            "unidad_altura":"m",
+            "grupos_de_huevo":"Monstruo Planta",
+            "color":"Verde",
+            "estadisticas":{
+                "velocidad":3,
+                "fortaleza":3,
+                "precision":4,
+                "resistencia":4,
+                "salto":3
+            },
+            "movimientos":[{
+                "nom":"Látigo_cepa",
+                "descrepción":"Protección/Detencción",
+                "potencia":45,
+                "contacte":"Si"
+            },
+            {
+                "nom":"Placaje",
+                "descrepción":"Protección/Detencción",
+                "potencia":40,
+                "contacte":"si"
+            }],
+            "imagne":"https://www.wikidex.net/wiki/Archivo:Bulbasaur.png",
+            "evolucion":{
+                "nivel_para_evolucionar":16,
+                "id":2         
+             }
+
+        },
+        {
+            "id":256,
+            "nom":"Combusken",
+            "generación":"Tercera",
+            "categoria":"Ave Corral",
+            "tipos":[
+                "Fuego",
+                "Lucha"
+            ],
+            "habilidad":"Mar llamas",
+            "hab.oculta":"Impulso",
+            "peso":19.5,
+            "unidad_medida":"Kg",
+            "altura":0.9,
+            "unidad_altura":"m",
+            "grupos_de_huevo":"campo",
+            "color":"Rojo",
+            "estadisticas":{
+                "velocidad":4,
+                "fortaleza":5,
+                "precision":4,
+                "resistencia":3,
+                "salto":4
+            },
+            "movimientos":[{
+                "nom":"Lanzallamas",
+                "descrepción":"Quemar al objetivo",
+                "potencia":90,
+                "contacte":"No"
+            },
+            {
+                "nom":"Doble patada",
+                "descrepción":"Protección/Detencción",
+                "potencia":30,
+                "contacte":"Si"
+            }],
+            "imagne":"https://www.wikidex.net/wiki/Archivo:Combusken.png ",
+            "evolucion":{
+                "nivel_para_evolucionar":36,
+                "id":2         
+             }
+        }
+    ]
+}
